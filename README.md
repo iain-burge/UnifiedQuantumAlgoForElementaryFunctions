@@ -1,6 +1,6 @@
 # A Unified Quantum Algorithm For Elementary Functions
 A Unified and Universal CORDIC Based Algorithm to Efficiently Compute All Elementary Functions with Minimal Overhead.
-Based on the classical extended version of Walter [1], a few tricks from Mazenc et al. [2], and the sneaky tricks that make it all reversible from Burge et al. [3].
+Based on the classical extended version of Walther [1], a few tricks from Mazenc et al. [2], and the sneaky tricks that make it all reversible from Burge et al. [3].
 
 ### Abstract Sketch
 Presented here is a universal CORDIC based algorithm that takes roughly 5n+O(1) space, O(n) additions or O(n^2) CNOT gates to perform the algorithm on n-bits.
