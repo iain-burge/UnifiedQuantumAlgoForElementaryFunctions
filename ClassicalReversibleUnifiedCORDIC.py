@@ -1,4 +1,3 @@
-
 import numpy as np
 from functools import cache
 import matplotlib.pyplot as plt
