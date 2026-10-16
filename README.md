@@ -4,7 +4,7 @@ Based on the classical extended version of Walther [1], a few tricks from Mazenc
 
 ### Abstract Sketch
 Presented here is a universal CORDIC based algorithm that takes roughly 5n+O(1) space, O(n) additions or O(n^2) CNOT gates to perform the algorithm on n-bits.
-Depending on two parameters, the algorithm can natively compute: x·y, x/y, sin x, cos x, arctan x, sinh x, cosh x, arctanh x, arcsin x, arcsinh x.
+Depending on two parameters, the algorithm can natively compute: x·y, x/y, sin x, cos x, arctan x, sinh x, cosh x, arctanh x, arcsin x, arcsinh x, x (identity).
 Leveraging an addition or two extra, we can also perform ln x, e^x, and sqrt x.
 Through multiple applications of CORDIC we can also compute: tan x, htan x, x^y.
 
