@@ -8,6 +8,8 @@ Depending on two parameters, the algorithm can natively compute: x·y, x/y, sin 
 Leveraging an addition or two extra, we can also perform ln x, e^x, and sqrt x.
 Through multiple applications of CORDIC we can also compute: tan x, htan x, x^y.
 
+### Explanation
+The Universal Quantum CORDIC Draft pdf file gives a sketch of the related work and of the algorithm.
 
 ### Requirements:
 - Python            3.14.7
